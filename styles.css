@@ -96,3 +96,100 @@ a {
     border: 5px solid lightblue;
     border-radius: 25px;
 }
+
+.box2 {
+    height: 200px;
+    padding: 10px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box2-1 {
+    display: flex;
+    color: #1f2937;
+    font-weight: 800;
+}
+
+.box2-2 {
+    display: flex;
+}
+
+.box2-2-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 200px;
+    padding: 20px;
+}
+
+.imgbrdr {
+    display: flex;
+    width: 80%;
+    height: 80px;
+    border: 5px solid lightblue;
+    border-radius: 25px;
+}
+
+.box3 {
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 75%;
+    font-style: italic;
+}
+
+.quotetext {
+    color: #1F2937;
+}
+
+.quoteauthor {
+    display: flex;
+    color: #1F2937;
+    font-weight: 800;
+    align-self: flex-end;
+}
+
+.box4 {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+}
+
+.modal {
+    display: flex;
+    background-color: #3882F6;
+    height: 30px;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.m1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.button2 {
+    width: 100px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+}
